@@ -15,8 +15,7 @@ public class ClientExecutor {
 
 		Registry registry;
 		try {
-			registry = LocateRegistry
-					.getRegistry("127.0.0.1", 1818);
+			registry = LocateRegistry.getRegistry("127.0.0.1", 1818);
 			servico = (ExecutorRMI) registry
 					.lookup(ExecutorRMI.NOME);
 			
