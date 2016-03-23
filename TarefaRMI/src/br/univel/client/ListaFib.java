@@ -18,6 +18,7 @@ class ListaFib implements Tarefa<Integer, List<Integer>>, Serializable {
 			e.printStackTrace();
 		}
 
+		
 	}
 
 	@Override
